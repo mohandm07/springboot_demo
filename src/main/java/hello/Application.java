@@ -30,7 +30,7 @@ public class Application {
                 final FileStore store = new FileStore();
 
                 final String sessionDirectory = makeSessionDirectory();
-                log.info("Writing sessions to " + sessionDirectory);
+                log.info("Writing sessions to  hello" + sessionDirectory);
                 store.setDirectory(sessionDirectory);
 
                 persistentManager.setStore(store);
